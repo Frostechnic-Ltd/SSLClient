@@ -30,7 +30,7 @@
 #define SSLClient_H_
 
 #ifndef DefaultBufferSize
-#define DefaultBufferSize 2048
+#define DefaultBufferSize BR_SSL_BUFSIZE_BIDI
 #endif /** DefaultBufferSize */
 
 /**
